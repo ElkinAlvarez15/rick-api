@@ -13,6 +13,7 @@ const templateCard = document.querySelector("#template-card")
 
 const fetchData = async () => {
     try {
+        
         loadingData(true);
 
         const res = await fetch("https://rickandmortyapi.com/api/character");
